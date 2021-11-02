@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  display: inline;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+.featured-images {
+  width: 80%;
+  object-fit: cover;
+  object-position: center;
+}
+
+footer {
+  padding: 20px;
+  color: white;
+  background-color: #ad6b42;
+  text-align: center;
+  font-weight: bold;
+}
+
+.profile header {
+  text-align: center;
+}
+
+.profile img {
+  width: 70%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card {
+  box-shadow: 0 5px 8px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 25px;
+  margin-top: 15px;
+}
+
+.jarak {
+  line-height: 150px;
+}
+
+.jumbotron {
+  font-size: 50px;
+  font-weight: bolder;
+  padding: 50px;
+  color: white;
+  text-align: center;
+  background-image: url("/assets/images/back.jpg");
+  /* Sumber Gambar
+  Photo by <a href="https://unsplash.com/@johnschno?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">John Schnobrich</a> on <a href="https://unsplash.com/s/photos/coffe?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+   */
+  line-height: 150px;
+  background-position: 0px -400px;
+}
+
+nav {
+  background-color: #99430e;
+  padding: 8px;
+  position: sticky;
+  top: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  font-size: 30px;
+  font-weight: 300;
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  font-weight: bolder;
+}
+
+main {
+  padding: 20px;
+  overflow: auto;
+}
+
+#content {
+  float: left;
+  width: 70%;
+}
+
+aside {
+  float: right;
+  width: 30%;
+  padding-left: 25px;
+  text-align: center;
+}
+
+/* Responsif desain */
+@media screen and (max-width: 1000px) {
+  #content,
+  aside {
+    width: 100%;
+    padding: 0;
+  }
+}
